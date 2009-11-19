@@ -1,0 +1,20 @@
+An Erlang clone of http://snip.heroku.com/
+
+By Seven Du from [Idapted Tech Team](http://www.idapted.com)
+
+
+It using ETS as a in memory database, you can change into DETS or mnesia for permanent store.
+
+You need mochiweb in place. http://code.google.com/p/mochiweb/
+
+make
+./start-dev.sh
+
+and browser localhost:8000 in your browser.
+
+Check ETS in erlang console:
+
+ets:tab2list(urls).
+
+
+enjoy.
